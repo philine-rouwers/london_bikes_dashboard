@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: london-bikes-demand-lab
-    runtime: python
-    plan: free
-    buildCommand: pip install uv && uv sync
-    startCommand: uv run gunicorn app:server
-    autoDeploy: true
