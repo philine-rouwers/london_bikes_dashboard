@@ -1,0 +1,17 @@
+[project]
+name = "london-bikes-demand-lab"
+version = "0.6.0"
+description = "Interactive London bike hire exploration and demand prediction dashboard"
+requires-python = ">=3.11"
+dependencies = [
+    "dash>=3.0",
+    "dash-bootstrap-components>=2.0",
+    "plotly>=6.0",
+    "pandas>=2.2",
+    "numpy>=2.0",
+    "requests>=2.32",
+    "gunicorn>=23.0",
+]
+
+[tool.uv]
+package = false
